@@ -1,0 +1,378 @@
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+  author="EICC"
+  version="1"
+  shortdescription=""
+  description="">
+
+  <group name="Patrimoine agropastoral Causses et Cévennes" icon="https://raw.githubusercontent.com/CaussesCevennes/JOSM_Tags_Presets/master/icons/sheep.png" >
+
+    <chunk id="unesco_cc">
+      <key key="heritage" value="1"/>
+      <key key="heritage:operator" value="whc"/>
+      <key key="ref:whc" value="1153"/>
+      <key key="whc:name" value="Causses et Cévennes"/>
+      <key key="whc:inscription_date" value="2011"/>
+      <key key="whc:criteria" value="(iii),(v)"/>
+      <key key="url" value="http://www.causses-et-cevennes.fr"/>
+    </chunk>
+
+    <chunk id="source">
+      <space/>
+      <combo key="source" text="Source" values="Survey,Cartoparty,local knowledge"/>
+      <text key="source:date" text="Date terrain"/>
+      <combo key="source:position" text="Source localisation" values="GPS,Bing,BDOrtho IGN"/>
+      <combo key="source:geometry" text="Source géométrie" values="GPS,Bing,BDOrtho IGN"/>
+    </chunk>
+
+    <chunk id="dsc">
+      <space/>
+      <text key="name" text="Nom"/>
+      <combo key="access" text="Accessibilité" values="yes,permissive,private"/>
+      <check key="ruins" text="Ruine?" value="off"/>
+      <text key="description" text="Description"/>
+      <space/>
+      <text key="image" text="Lien Flickr"/>
+      <text key="ref" text="Identifiant BD patrimoine"/>
+      <text key="ref:mhs" text="Identifiant Mérimée"/>
+    </chunk>
+
+
+    <item name="Aire à battre" icon="presets/empty.png" type="node,closedway">
+      <key key="whc:cultural_attribute" value="Aire à battre"/>
+      <key key="cultural_attribute:description" value="Plate-forme dallée destinée à battre les céréales afin d'en extraire les grains"/>
+      <key key="man_made" value="threshing_floor"/>
+      <key key="historic" value="yes"/>
+      <key key="surface" value="paving_stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Béal" icon="presets/empty.png" type="node,way">
+      <key key="whc:cultural_attribute" value="Béal"/>
+      <key key="cultural_attribute:description" value="Petit canal à faible pente construit à ciel ouvert et permettant l'irrigation dans les terrasses"/>
+      <key key="waterway" value="canal"/>
+      <key key="service" value="irrigation"/>
+      <key key="historic" value="yes"/>
+      <key key="material" value="stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Borne de délimitation" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Borne de délimitation"/>
+      <key key="cultural_attribute:description" value="Pierres dressées pour délimiter des parcelles"/>
+      <key key="historic" value="boundary_stone"/>
+      <key key="operator" value="Military and religious order"/>
+      <key key="material" value="stone"/>
+      <text key="height" text="Hauteur" value=""/>
+      <text key="inscription" text="Inscriptions(s)" value=""/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Bouissière" icon="presets/empty.png" type="node,way">
+      <key key="whc:cultural_attribute" value="Bouissière"/>
+      <key key="cultural_attribute:description" value="Alignement de buis destiné à offrir de l'ombre au troupeau lors de leur passage"/>
+      <key key="natural" value="tree_row"/>
+      <key key="historic" value="yes"/>
+      <key key="operator" value="shepherd"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Calade" icon="presets/empty.png" type="node,way">
+      <key key="whc:cultural_attribute" value="Calade"/>
+      <key key="cultural_attribute:description" value="Voie pavée avec des pierres afin d'empêcher l'érosion du chemin"/>
+      <key key="highway" value="path"/>
+      <key key="historic" value="yes"/>
+      <key key="surface" value="paving_stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Cave bâtarde" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Cave bâtarde"/>
+      <key key="cultural_attribute:description" value="Cave aménagée dans une cavité rocheuse naturelle et destinée à l'affinage du fromage"/>
+      <key key="natural" value="cave_entrance"/>
+      <key key="historic" value="yes"/>
+      <key key="operator" value="cheese_maker"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Cazelle" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Cazelle"/>
+      <key key="cultural_attribute:description" value="Construction en pierre sèche bâtie par les bergers sur les parcours pour se protéger du soleil et du vent tout en gardant le troupeau"/>
+      <key key="man_made" value="shelter"/>
+      <key key="historic" value="yes"/>
+      <key key="shelter_type" value="basic_hut"/>
+      <key key="building:material" value="dry_stone"/>
+      <key key="operator" value="shepherd"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Citerne" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Citerne"/>
+      <key key="cultural_attribute:description" value="Réservoir creusé dans le sol et la roche et recouvert d'une voûte maçonnée"/>
+      <key key="man_made" value="storage_tank"/>
+      <key key="historic" value="yes"/>
+      <key key="content" value="water"/>
+      <key key="material" value="stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Clapas" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Clapas"/>
+      <key key="cultural_attribute:description" value="Tas de pierres issues de l'épierrement des champs au fil du temps"/>
+      <key key="man_made" value="spoil_heap"/>
+      <key key="material" value="drystone"/>
+      <key key="historic" value="yes"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Clède" icon="presets/empty.png" type="node,closedway">
+      <key key="whc:cultural_attribute" value="Clède"/>
+      <key key="cultural_attribute:description" value="Bâtiment à un étage servant autrefois à sécher les châtaignes"/>
+      <key key="building" value="drying_shed"/>
+      <key key="historic" value="yes"/>
+      <key key="building:material" value="dry_stone"/>
+      <key key="roof:material" value="stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Clocher de tourmente" icon="presets/empty.png" type="node">
+      <label text="Clocher de tourmente"/><space/>
+      <key key="whc:cultural_attribute" value="Clocher de tourmente"/>
+      <key key="cultural_attribute:description" value="Bâti supportant une cloche dont le rôle primitif était de permettre aux bergers de ne pas s'égarer lors d'une tempête hivernale"/>
+      <key key="man_made" value="tower"/>
+      <key key="historic" value="yes"/>
+      <key key="tower:type" value="bell_tower"/>
+      <key key="building:material" value="dry_stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Chapelle" icon="presets/empty.png" type="node,closedway">
+      <key key="whc:cultural_attribute" value="Chapelle"/>
+      <key key="cultural_attribute:description" value="Chapelle dédiée aux saints protecteurs des troupeaux"/>
+      <key key="building" value="chapel"/>
+      <key key="historic" value="yes"/>
+      <key key="building:material" value="dry_stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Croix" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Croix de chemin"/>
+      <key key="cultural_attribute:description" value="Croix de chemin ayant pour vocation de protéger les voyageurs, le berger et son troupeau"/>
+      <key key="historic" value="wayside_cross"/>
+      <combo key="material" text="Matériau" values="stone,steel,wood"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Draille" icon="presets/empty.png" type="node,way">
+      <key key="whc:cultural_attribute" value="Draille"/>
+      <key key="cultural_attribute:description" value="Chemin formé par le passage des troupeaux pour effectuer la transhumance"/>
+      <key key="highway" value="path"/>
+      <key key="historic" value="yes"/>
+      <key key="operator" value="shepherd"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Enclos" icon="presets/empty.png" type="node,way">
+      <key key="whc:cultural_attribute" value="Enclos"/>
+      <key key="cultural_attribute:description" value="Parcelle entourée d'un mur bâti en pierre sèche destinée à rassembler les brebis"/>
+      <key key="barrier" value="wall"/>
+      <key key="wall_type" value="dry_stone"/>
+      <key key="historic" value="sheepfold"/>
+      <key key="operator" value="shepherd"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Ferme remarquable" icon="presets/empty.png" type="node,closedway">
+      <key key="whc:cultural_attribute" value="Farm"/>
+      <key key="cultural_attribute:description" value="Ferme remarquable de par son historique lié à l'agropastoralisme"/>
+      <key key="building" value="farm"/>
+      <key key="historic" value="yes"/>
+      <key key="building:material" value="drystone"/>
+      <key key="roof:material" value="stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Fosse à loups" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Fosse à loups"/>
+      <key key="cultural_attribute:description" value="Fosse aménagée dans les passages étroits pour piéger les loups et ainsi protéger les troupeaux"/>
+      <key key="historic" value="pitfall"/>
+      <key key="building:material" value="dry_stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Four" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Four"/>
+      <key key="cultural_attribute:description" value="Four constitué d'une chambre de chauffe circulaire et voutée elle-même protégée par une petite bâtisse"/>
+      <key key="man_made" value="kiln"/>
+      <key key="historic" value="yes"/>
+      <key key="building:material" value="dry_stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Hameau remarquable" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Hameau"/>
+      <key key="cultural_attribute:description" value="Hameau remarquable de par son historique lié à l'agropastoralisme"/>
+      <key key="place" value="hamlet"/>
+      <key key="historic" value="yes"/>
+      <text key="is_in:village" text="Commune"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Jasse" icon="presets/empty.png" type="node,closedway">
+      <key key="whc:cultural_attribute" value="Jasse"/>
+      <key key="cultural_attribute:description" value="Ancienne bergerie voûtée bâtie en pierre sèche et couverte de lauze"/>
+      <key key="building" value="sheep_pen"/>
+      <key key="historic" value="yes"/>
+      <key key="operator" value="shepherd"/>
+      <key key="building:material" value="drystone"/>
+      <key key="roof:material" value="stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+
+    <item name="Lavogne" icon="presets/empty.png" type="node,closedway">
+      <key key="whc:cultural_attribute" value="Lavogne"/>
+      <key key="cultural_attribute:description" value="Dépression naturelle argileuse de forme circulaire alimentée par les eaux de pluies et servant d'abreuvoir aux troupeaux"/>
+      <key key="amenity" value="watering_place"/>
+      <key key="historic" value="yes"/>
+      <key key="operator" value="shepherd"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Toit-citerne" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Toit-citerne"/>
+      <key key="cultural_attribute:description" value="Edifice présentant une large couverture de lauzes de forme circulaire ou semi-circulaire permettant de collecter les eaux de pluie vers une citerne"/>
+      <key key="man_made" value="storage_tank"/>
+      <key key="historic" value="yes"/>
+      <key key="content" value="water"/>
+      <key key="material" value="stone"/>
+      <key key="roof:material" value="stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+
+    <item name="Montjoie" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Montjoie"/>
+      <key key="cultural_attribute:description" value="Pierre dressée le long d'un chemin de transhumance pour délimiter la voie"/>
+      <key key="historic" value="milestone"/>
+      <key key="operator" value="shepherd"/>
+      <key key="material" value="stone"/>
+      <text key="height" text="Hauteur" value=""/>
+      <text key="inscription" text="Inscriptions(s)" value=""/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Moulin à eau" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Moulin à eau"/>
+      <key key="cultural_attribute:description" value=""/>
+      <key key="man_made" value="watermill"/>
+      <key key="historic" value="yes"/>
+      <key key="building:material" value="dry_stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Moulin à vent" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Moulin à vent"/>
+      <key key="cultural_attribute:description" value=""/>
+      <key key="man_made" value="windmill"/>
+      <key key="historic" value="yes"/>
+      <key key="building:material" value="dry_stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Pont moutonnier" icon="presets/empty.png" type="node,way">
+      <key key="whc:cultural_attribute" value="Pont moutonnier"/>
+      <key key="cultural_attribute:description" value="Pont spécifiquement construit sur une draille pour le franchissement des troupeaux en transhumance"/>
+      <key key="man_made" value="bridge"/>
+      <key key="historic" value="yes"/>
+      <key key="operator" value="shepherd"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Puit" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Puit"/>
+      <key key="cultural_attribute:description" value=""/>
+      <key key="man_made" value="water_well"/>
+      <key key="historic" value="yes"/>
+      <key key="building:material" value="dry_stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Source/fontaine" icon="presets/empty.png" type="node">
+      <key key="whc:cultural_attribute" value="Source/fontaine"/>
+      <key key="cultural_attribute:description" value=""/>
+      <key key="natural" value="spring"/>
+      <key key="historic" value="yes"/>
+      <key key="building:material" value="dry_stone"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+    <item name="Terrasses" icon="presets/empty.png" type="node,way">
+      <key key="whc:cultural_attribute" value="Bancel"/>
+      <key key="cultural_attribute:description" value="Mur de soutènement en pierres sèches permettant d'aménager des zones planes dans une forte pente et d'augmenter la surface cultivable"/>
+      <key key="barrier" value="wall"/>
+      <key key="wall_type" value="dry_stone"/>
+      <key key="historic" value="yes"/>
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="unesco_cc"/>
+    </item>
+
+  </group>
+
+</presets>
