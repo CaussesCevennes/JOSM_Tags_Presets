@@ -78,7 +78,7 @@
       <key key="cultural_attribute:description" value="Alignement de buis destiné à offrir de l'ombre au troupeau lors de leur passage"/>
       <key key="natural" value="tree_row"/>
       <key key="historic" value="yes"/>
-      <key key="operator" value="shepherd"/>
+      <key key="operator" value="shepherds"/>
       <reference ref="dsc"/>
       <reference ref="source"/>
       <reference ref="unesco_cc"/>
@@ -111,7 +111,7 @@
       <key key="cultural_attribute:description" value="Construction en pierre sèche bâtie par les bergers sur les parcours pour se protéger du soleil et du vent tout en gardant le troupeau"/>
       <key key="man_made" value="shelter"/>
       <key key="building:material" value="dry_stone"/>
-      <key key="operator" value="shepherd"/>
+      <key key="operator" value="shepherds"/>
       <key key="historic" value="yes"/>
       <reference ref="dsc"/>
       <reference ref="source"/>
@@ -191,7 +191,7 @@
       <key key="cultural_attribute:description" value="Chemin formé par le passage des troupeaux pour effectuer la transhumance"/>
       <key key="highway" value="path"/>
       <key key="historic" value="yes"/>
-      <key key="operator" value="shepherd"/>
+      <key key="operator" value="shepherds"/>
       <reference ref="dsc"/>
       <reference ref="source"/>
       <reference ref="unesco_cc"/>
@@ -202,7 +202,7 @@
       <key key="cultural_attribute:description" value="Parcelle entourée d'un mur bâti en pierre sèche destinée à rassembler les brebis"/>
       <key key="historic" value="sheepfold"/>
       <key key="wall_type" value="dry_stone"/>
-      <key key="operator" value="shepherd"/>
+      <key key="operator" value="shepherds"/>
       <reference ref="dsc"/>
       <reference ref="source"/>
       <reference ref="unesco_cc"/>
@@ -257,7 +257,7 @@
       <key key="cultural_attribute:description" value="Ancienne bergerie voûtée bâtie en pierre sèche et couverte de lauze"/>
       <key key="building" value="sheep_pen"/>
       <key key="historic" value="yes"/>
-      <key key="operator" value="shepherd"/>
+      <key key="operator" value="shepherds"/>
       <key key="building:material" value="drystone"/>
       <reference ref="dsc"/>
       <check key="roof:material" text="Toit en lauze?" value_on="stone" disable_off="true"/>
@@ -271,7 +271,7 @@
       <key key="cultural_attribute:description" value="Dépression naturelle argileuse de forme circulaire alimentée par les eaux de pluies et servant d'abreuvoir aux troupeaux"/>
       <key key="amenity" value="watering_place"/>
       <key key="historic" value="yes"/>
-      <key key="operator" value="shepherd"/>
+      <key key="operator" value="shepherds"/>
       <reference ref="dsc"/>
       <reference ref="source"/>
       <reference ref="unesco_cc"/>
@@ -295,7 +295,7 @@
       <key key="whc:cultural_attribute" value="Montjoie"/>
       <key key="cultural_attribute:description" value="Pierre dressée le long d'un chemin de transhumance pour délimiter la voie"/>
       <key key="historic" value="milestone"/>
-      <key key="operator" value="shepherd"/>
+      <key key="operator" value="shepherds"/>
       <key key="material" value="stone"/>
       <text key="height" text="Hauteur" value=""/>
       <text key="inscription" text="Inscriptions(s)" value=""/>
@@ -330,7 +330,7 @@
       <key key="whc:cultural_attribute" value="Pont moutonnier"/>
       <key key="cultural_attribute:description" value="Pont spécifiquement construit sur une draille pour le franchissement des troupeaux en transhumance"/>
       <key key="historic" value="bridge"/>
-      <key key="operator" value="shepherd"/>
+      <key key="operator" value="shepherds"/>
       <reference ref="dsc"/>
       <reference ref="source"/>
       <reference ref="unesco_cc"/>
