@@ -31,7 +31,7 @@
       <check key="ruins" text="Ruine?" value="off"/>
       <text key="description" text="Description"/>
       <space/>
-      <text key="image" text="Lien Flickr"/>
+      <text key="image" text="Lien photo"/>
       <text key="ref" text="Identifiant BD patrimoine"/>
       <text key="ref:mhs" text="Identifiant Mérimée"/>
     </chunk>
@@ -49,6 +49,7 @@
     </item>
 
     <item name="Béal" icon="presets/empty.png" type="way">
+      <label text="Béal"/><space/>
       <key key="whc:cultural_attribute" value="Béal"/>
       <key key="cultural_attribute:description" value="Petit canal à faible pente construit à ciel ouvert et permettant l'irrigation dans les terrasses"/>
       <key key="waterway" value="canal"/>
@@ -61,6 +62,7 @@
     </item>
 
     <item name="Borne de délimitation" icon="presets/empty.png" type="node">
+      <label text="Borne de délimitation"/><space/>
       <key key="whc:cultural_attribute" value="Borne de délimitation"/>
       <key key="cultural_attribute:description" value="Pierres dressées pour délimiter des parcelles"/>
       <key key="historic" value="boundary_stone"/>
@@ -74,6 +76,7 @@
     </item>
 
     <item name="Bouissière" icon="presets/empty.png" type="way">
+      <label text="Bouissière"/><space/>
       <key key="whc:cultural_attribute" value="Bouissière"/>
       <key key="cultural_attribute:description" value="Alignement de buis destiné à offrir de l'ombre au troupeau lors de leur passage"/>
       <key key="natural" value="tree_row"/>
@@ -85,6 +88,7 @@
     </item>
 
     <item name="Calade" icon="presets/empty.png" type="way">
+      <label text="Calade"/><space/>
       <key key="whc:cultural_attribute" value="Calade"/>
       <key key="cultural_attribute:description" value="Voie pavée avec des pierres afin d'empêcher l'érosion du chemin"/>
       <key key="highway" value="path"/>
@@ -96,6 +100,7 @@
     </item>
 
     <item name="Cave bâtarde" icon="presets/empty.png" type="node,closedway">
+      <label text="Cave bâtarde"/><space/>
       <key key="whc:cultural_attribute" value="Cave bâtarde"/>
       <key key="cultural_attribute:description" value="Cave aménagée dans une cavité rocheuse naturelle et destinée à l'affinage du fromage"/>
       <key key="natural" value="cave_entrance"/>
@@ -107,6 +112,7 @@
     </item>
 
     <item name="Cazelle" icon="presets/empty.png" type="node,closedway">
+      <label text="Cazelle"/><space/>
       <key key="whc:cultural_attribute" value="Cazelle"/>
       <key key="cultural_attribute:description" value="Construction en pierre sèche bâtie par les bergers sur les parcours pour se protéger du soleil et du vent tout en gardant le troupeau"/>
       <key key="man_made" value="shelter"/>
@@ -119,6 +125,7 @@
     </item>
 
     <item name="Citerne" icon="presets/empty.png" type="node,closedway">
+      <label text="Citerne"/><space/>
       <key key="whc:cultural_attribute" value="Citerne"/>
       <key key="cultural_attribute:description" value="Réservoir creusé dans le sol et la roche et recouvert d'une voûte maçonnée"/>
       <key key="man_made" value="storage_tank"/>
@@ -131,6 +138,7 @@
     </item>
 
     <item name="Clapas" icon="presets/empty.png" type="node,closedway">
+      <label text="Clapas"/><space/>
       <key key="whc:cultural_attribute" value="Clapas"/>
       <key key="cultural_attribute:description" value="Tas de pierres issues de l'épierrement des champs au fil du temps"/>
       <key key="man_made" value="spoil_heap"/>
@@ -142,6 +150,7 @@
     </item>
 
     <item name="Clède" icon="presets/empty.png" type="node,closedway">
+      <label text="Clède"/><space/>
       <key key="whc:cultural_attribute" value="Clède"/>
       <key key="cultural_attribute:description" value="Bâtiment à un étage servant autrefois à sécher les châtaignes"/>
       <key key="building" value="drying_shed"/>
@@ -153,6 +162,7 @@
     </item>
 
     <item name="Clocher de tourmente" icon="presets/empty.png" type="node,closedway">
+      <label text="Clocher de tourmente"/><space/>
       <label text="Clocher de tourmente"/><space/>
       <key key="whc:cultural_attribute" value="Clocher de tourmente"/>
       <key key="cultural_attribute:description" value="Bâti supportant une cloche dont le rôle primitif était de permettre aux bergers de ne pas s'égarer lors d'une tempête hivernale"/>
@@ -166,6 +176,7 @@
     </item>
 
     <item name="Chapelle" icon="presets/empty.png" type="node,closedway">
+      <label text="Chapelle"/><space/>
       <key key="whc:cultural_attribute" value="Chapelle"/>
       <key key="cultural_attribute:description" value="Chapelle dédiée aux saints protecteurs des troupeaux"/>
       <key key="building" value="chapel"/>
@@ -177,6 +188,7 @@
     </item>
 
     <item name="Croix" icon="presets/empty.png" type="node">
+      <label text="Croix"/><space/>
       <key key="whc:cultural_attribute" value="Croix de chemin"/>
       <key key="cultural_attribute:description" value="Croix de chemin ayant pour vocation de protéger les voyageurs, le berger et son troupeau"/>
       <key key="historic" value="wayside_cross"/>
@@ -187,6 +199,7 @@
     </item>
 
     <item name="Draille" icon="presets/empty.png" type="way">
+      <label text="Draille"/><space/>
       <key key="whc:cultural_attribute" value="Draille"/>
       <key key="cultural_attribute:description" value="Chemin formé par le passage des troupeaux pour effectuer la transhumance"/>
       <key key="highway" value="path"/>
@@ -198,6 +211,7 @@
     </item>
 
     <item name="Enclos" icon="presets/empty.png" type="node,way,closedway">
+      <label text="Enclos"/><space/>
       <key key="whc:cultural_attribute" value="Enclos"/>
       <key key="cultural_attribute:description" value="Parcelle entourée d'un mur bâti en pierre sèche destinée à rassembler les brebis"/>
       <key key="historic" value="sheepfold"/>
@@ -209,6 +223,7 @@
     </item>
 
     <item name="Ferme remarquable" icon="presets/empty.png" type="node,closedway,multipolygon,relation">
+      <label text="Ferme remarquable"/><space/>
       <key key="whc:cultural_attribute" value="Farm"/>
       <key key="cultural_attribute:description" value="Ferme remarquable de par son historique lié à l'agropastoralisme"/>
       <key key="building" value="farm"/>
@@ -221,6 +236,7 @@
     </item>
 
     <item name="Fosse à loups" icon="presets/empty.png" type="node">
+      <label text="Fosse à loups"/><space/>
       <key key="whc:cultural_attribute" value="Fosse à loups"/>
       <key key="cultural_attribute:description" value="Fosse aménagée dans les passages étroits pour piéger les loups et ainsi protéger les troupeaux"/>
       <key key="historic" value="pitfall"/>
@@ -231,6 +247,7 @@
     </item>
 
     <item name="Four" icon="presets/empty.png" type="node,closedway">
+      <label text="Four"/><space/>
       <key key="whc:cultural_attribute" value="Four"/>
       <key key="cultural_attribute:description" value="Four constitué d'une chambre de chauffe circulaire et voutée elle-même protégée par une petite bâtisse"/>
       <key key="man_made" value="kiln"/>
@@ -242,6 +259,7 @@
     </item>
 
     <item name="Hameau remarquable" icon="presets/empty.png" type="node">
+      <label text="Hameau remarquable"/><space/>
       <key key="whc:cultural_attribute" value="Hameau"/>
       <key key="cultural_attribute:description" value="Hameau remarquable de par son historique lié à l'agropastoralisme"/>
       <key key="place" value="hamlet"/>
@@ -253,6 +271,7 @@
     </item>
 
     <item name="Jasse" icon="presets/empty.png" type="node,closedway">
+      <label text="Jasse"/><space/>
       <key key="whc:cultural_attribute" value="Jasse"/>
       <key key="cultural_attribute:description" value="Ancienne bergerie voûtée bâtie en pierre sèche et couverte de lauze"/>
       <key key="building" value="sheep_pen"/>
@@ -267,6 +286,7 @@
 
 
     <item name="Lavogne" icon="presets/empty.png" type="node,closedway">
+      <label text="Lavogne"/><space/>
       <key key="whc:cultural_attribute" value="Lavogne"/>
       <key key="cultural_attribute:description" value="Dépression naturelle argileuse de forme circulaire alimentée par les eaux de pluies et servant d'abreuvoir aux troupeaux"/>
       <key key="amenity" value="watering_place"/>
@@ -278,6 +298,7 @@
     </item>
 
     <item name="Toit-citerne" icon="presets/empty.png" type="node,closedway">
+      <label text="Toit-citerne"/><space/>
       <key key="whc:cultural_attribute" value="Toit-citerne"/>
       <key key="cultural_attribute:description" value="Edifice présentant une large couverture de lauzes de forme circulaire ou semi-circulaire permettant de collecter les eaux de pluie vers une citerne"/>
       <key key="man_made" value="storage_tank"/>
@@ -292,6 +313,7 @@
 
 
     <item name="Montjoie" icon="presets/empty.png" type="node">
+      <label text="Montjoie"/><space/>
       <key key="whc:cultural_attribute" value="Montjoie"/>
       <key key="cultural_attribute:description" value="Pierre dressée le long d'un chemin de transhumance pour délimiter la voie"/>
       <key key="historic" value="milestone"/>
@@ -305,6 +327,7 @@
     </item>
 
     <item name="Moulin à eau" icon="presets/empty.png" type="node,closedway">
+      <label text="Moulin à eau"/><space/>
       <key key="whc:cultural_attribute" value="Moulin à eau"/>
       <key key="cultural_attribute:description" value=""/>
       <key key="man_made" value="watermill"/>
@@ -316,6 +339,7 @@
     </item>
 
     <item name="Moulin à vent" icon="presets/empty.png" type="node,closedway">
+      <label text="Moulin à vent"/><space/>
       <key key="whc:cultural_attribute" value="Moulin à vent"/>
       <key key="cultural_attribute:description" value=""/>
       <key key="man_made" value="windmill"/>
@@ -327,6 +351,7 @@
     </item>
 
     <item name="Pont moutonnier" icon="presets/empty.png" type="node,way">
+      <label text="Pont moutonnier"/><space/>
       <key key="whc:cultural_attribute" value="Pont moutonnier"/>
       <key key="cultural_attribute:description" value="Pont spécifiquement construit sur une draille pour le franchissement des troupeaux en transhumance"/>
       <key key="historic" value="bridge"/>
@@ -336,8 +361,9 @@
       <reference ref="unesco_cc"/>
     </item>
 
-    <item name="Puit" icon="presets/empty.png" type="node,closedway">
-      <key key="whc:cultural_attribute" value="Puit"/>
+    <item name="Puits" icon="presets/empty.png" type="node,closedway">
+      <label text="Puits"/><space/>
+      <key key="whc:cultural_attribute" value="Puits"/>
       <key key="cultural_attribute:description" value=""/>
       <key key="man_made" value="water_well"/>
       <key key="historic" value="yes"/>
@@ -348,6 +374,7 @@
     </item>
 
     <item name="Source/fontaine" icon="presets/empty.png" type="node,closedway">
+      <label text="Source/fontaine"/><space/>
       <key key="whc:cultural_attribute" value="Source/fontaine"/>
       <key key="cultural_attribute:description" value=""/>
       <key key="natural" value="spring"/>
@@ -358,7 +385,8 @@
       <reference ref="unesco_cc"/>
     </item>
 
-    <item name="Terrasses" icon="presets/empty.png" type="node,way,closedway">
+    <item name="Terrasse" icon="presets/empty.png" type="node,way,closedway">
+      <label text="Terrasse"/><space/>
       <key key="whc:cultural_attribute" value="Bancel"/>
       <key key="cultural_attribute:description" value="Mur de soutènement en pierres sèches permettant d'aménager des zones planes dans une forte pente et d'augmenter la surface cultivable"/>
       <key key="historic" value="retaining_wall"/>
