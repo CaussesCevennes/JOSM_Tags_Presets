@@ -38,6 +38,7 @@
 
 
     <item name="Aire à battre" icon="presets/empty.png" type="node,closedway">
+      <label text="Aire à battre"/><space/>
       <key key="whc:cultural_attribute" value="Aire à battre"/>
       <key key="cultural_attribute:description" value="Plate-forme dallée destinée à battre les céréales afin d'en extraire les grains"/>
       <key key="man_made" value="threshing_floor"/>
@@ -222,9 +223,9 @@
       <reference ref="unesco_cc"/>
     </item>
 
-    <item name="Ferme remarquable" icon="presets/empty.png" type="node,closedway,multipolygon,relation">
+    <item name="Ferme remarquable" icon="presets/empty.png" type="node,closedway,relation">
       <label text="Ferme remarquable"/><space/>
-      <key key="whc:cultural_attribute" value="Farm"/>
+      <key key="whc:cultural_attribute" value="Ferme"/>
       <key key="cultural_attribute:description" value="Ferme remarquable de par son historique lié à l'agropastoralisme"/>
       <key key="building" value="farm"/>
       <key key="historic" value="yes"/>
