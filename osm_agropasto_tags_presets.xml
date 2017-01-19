@@ -37,7 +37,7 @@
     </chunk>
 
 
-    <item name="Aire à battre" icon="presets/empty.png" type="node,closedway">
+    <item name="Aire à battre" type="node,closedway">
       <label text="Aire à battre"/><space/>
       <key key="whc:cultural_attribute" value="Aire à battre"/>
       <key key="cultural_attribute:description" value="Plate-forme dallée destinée à battre les céréales afin d'en extraire les grains"/>
