@@ -7,7 +7,7 @@
   <group name="Patrimoine agropastoral Causses et Cévennes" icon="https://raw.githubusercontent.com/CaussesCevennes/JOSM_Tags_Presets/master/icons/sheep.png" >
 
     <chunk id="projet">
-      <key key="project" value="Causses&Cévennes"/>
+      <key key="project" value="Causses&amp;Cévennes"/>
     </chunk>
 
     <chunk id="unesco_cc">
