@@ -10,6 +10,12 @@
       <key key="project" value="Causses&amp;Cévennes"/>
     </chunk>
 
+    <chunk id="projet_desc">
+      <key key="project:description" value="Inventaire du patrimoine agropastoral sur le territoire Causses et Cévennes"/>
+      <key key="project:url" value="http://wikis.cdrflorac.fr/wikis/CartoEICC/wakka.php?wiki=PagePrincipale"/>
+      <key key="project:contact_email" value="observatoire(at)causses-et-cevennes.fr"/>
+    </chunk>
+
     <chunk id="unesco_cc">
       <key key="heritage" value="1"/>
       <key key="heritage:operator" value="whc"/>
@@ -272,7 +278,7 @@
       <key key="historic:description:fr" value="Ferme remarquable de par son historique lié à l'agropastoralisme"/>
       <key key="historic" value="farm"/>
       <key key="building" value="yes"/>
-      <key key="building:material" value="drystone"/>
+      <key key="building:material" value="stone"/>
       <reference ref="dsc"/>
       <check key="roof:material" text="Toit en lauze?" value_on="stone" disable_off="true"/>
       <reference ref="source"/>
@@ -334,7 +340,7 @@
       <key key="historic" value="sheep_pen"/>
       <key key="building" value="yes"/>
       <key key="operator" value="shepherds"/>
-      <key key="building:material" value="drystone"/>
+      <key key="building:material" value="stone"/>
       <reference ref="dsc"/>
       <check key="roof:material" text="Toit en lauze?" value_on="stone" disable_off="true"/>
       <reference ref="source"/>
