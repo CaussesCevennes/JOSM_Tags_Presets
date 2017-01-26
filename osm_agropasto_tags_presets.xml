@@ -397,6 +397,18 @@
       <reference ref="projet"/>
     </item>
 
+    <item name="Muret" type="way">
+      <label text="Muret"/><space/>
+      <key key="historic:fr" value="Muret"/>
+      <key key="historic:description:fr" value="Mur en pierres sèches utilisé pour clôturer et délimiter les parcelles ou bordant les chemins afin d'y maintenir le troupeau"/>
+      <key key="historic" value="wall"/>
+      <key key="wall_type" value="dry_stone"/>
+      <key key="operator" value="shepherds"/>	  
+      <reference ref="dsc"/>
+      <reference ref="source"/>
+      <reference ref="projet"/>
+    </item>
+
     <item name="Pont moutonnier" type="node,way">
       <label text="Pont moutonnier"/><space/>
       <key key="historic:fr" value="Pont moutonnier"/>
